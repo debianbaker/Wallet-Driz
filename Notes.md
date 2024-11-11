@@ -22,3 +22,8 @@ BUT I DID NOT DO THIS. INSTEAD I STORED KEY DIRECTLY ON COOKIE.
 - handle routing properly
 - make backend route
 - make responsive
+
+NOTES On deploying: 
+Write Site configurations on netlify properly - about build directory, build command etc. 
+Gives error in MIME type (Content-type) as application/octet-stream, so handled content-type for netlify in _headers file.
+Works great but errors in Routing.
